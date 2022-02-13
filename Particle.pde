@@ -100,7 +100,7 @@ class Particle{
   void moveAccToMov(QuadTree npqt){
     pqt = npqt;
     Ns = pqt.getPsInRect(new PVector(pos.x,pos.y),new PVector(Ndis,Ndis));
-    mov.mult(friction); //<>// //<>// //<>// //<>//
+    mov.mult(friction); //<>// //<>// //<>//
     
     mov.limit(max);
     

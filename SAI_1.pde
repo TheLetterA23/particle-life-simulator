@@ -24,7 +24,7 @@ boolean simulating = false;
 boolean paused = true;
 
 // idk what this ones does...
-int numberOfParticals = 5000;
+int numberOfParticals = 2000;
 
 //max speed
 float max = 100;
@@ -40,7 +40,7 @@ float minSpeedForColFriction;
 float ColFriction;
 
 // number of diferent particle types
-int numberOfTypes = 8;
+int numberOfTypes = 3;
 
 
 // holds the interaction streangth for each pair of particle types
@@ -60,7 +60,7 @@ float Dtable[] = new float[numberOfTypes];
 float spread = 800;
 
 //number of clumps for every type of particle when starting sim, for example if this is set to 5 then upon starting the sim there will be 5 clumps of every particle type.
-int numOfClumps = 5;
+int numOfClumps = 10;
 
 //min radius of particle clumps when starting sim
 float Rmin= 50;
@@ -150,9 +150,9 @@ void setup(){
       randomSeed(seed);
 
   //randomSeed(-63830);
- //<>//
+
   size(1920,1080);
-    //fullScreen(); //<>// //<>//
+    //fullScreen(); //<>//
   
   //starts the sim
 
@@ -457,7 +457,7 @@ void initSim(){
   
 //    for(int i = 0 ; i < numberOfParticals ; i++){
 //    Particle p = new Particle(new PVector(random(0,width),random(0,height)),new PVector(random(-2,2),random(-2,2)) ,(int)random(0,numberOfTypes));
-//    Plist.add(p); //<>//
+//    Plist.add(p);
 ////    qt.insertP(p);b 
 //  }
         // inserts the particles in to the quad tree

@@ -35,5 +35,5 @@ press i to see the current interations table
 
 press mouse wheel to move the camera
 
-scroll the mouse wheel to change zoom level (can also make sim run faster as particls not in view dont have to render)
+scroll the mouse wheel to change zoom level (can also make sim run faster as particles not in view dont have to render)
 

@@ -8,6 +8,8 @@ or a video made by code parade at
 
 
 ## how to use?
+this sim is run useing processing (https://processing.org).
+
 by defult the sim starts paused and with 5000 particles, 
 you can manualy add more by pressing mouse 1 and dragging, 
 to change to added particle type press the number fo the type you want to add.

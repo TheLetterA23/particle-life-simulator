@@ -15,7 +15,7 @@ SAI_1.pde is the main file, i dont remember what it means as this project was st
 
 ## how to use?
 
-by defult the sim starts paused and with 5000 particles, 
+by defult the sim starts paused and with 2000 particles, 
 
 press space to pause and un pause,
 
